@@ -1,0 +1,2 @@
+Before install Flask:
+ pip install setuptools==21.2.1
