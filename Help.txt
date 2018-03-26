@@ -1,2 +1,12 @@
 Before install Flask:
  pip install setuptools==21.2.1
+
+git remote add pro git@heroku.com:wordcount-win-pro.git
+git remote add stage git@heroku.com:wordcount-win-stage.git
+
+git push pro master
+git push stage master
+
+heroku config:set APP_SETTINGS=config.StagingConfig --remote stage
+
+set DATABASE_URL="postgresql://localhost/wordcount_dev"
