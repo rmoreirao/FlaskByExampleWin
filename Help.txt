@@ -10,3 +10,9 @@ git push stage master
 heroku config:set APP_SETTINGS=config.StagingConfig --remote stage
 
 set DATABASE_URL="postgresql://localhost/wordcount_dev"
+
+DB: Criar usuario admin com senha admin123
+
+REDIS:
+
+https://github.com/ServiceStack/redis-windows
