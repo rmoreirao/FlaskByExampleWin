@@ -16,3 +16,5 @@ DB: Criar usuario admin com senha admin123
 REDIS:
 
 https://github.com/ServiceStack/redis-windows
+
+python worker.py (had to create the SimpleWorker class!)
